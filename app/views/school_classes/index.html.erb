@@ -1,0 +1,6 @@
+<h1>School Classes</h1>
+
+<% SchoolClass.all.each do |school_class| %>
+    <p><%= school_class.title %></p>
+    <p><%= school_class.room_number %></p>
+<% end %>
